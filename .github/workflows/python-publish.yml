@@ -43,11 +43,11 @@ jobs:
       - name: Publish package Core
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          packages: superdupper-core/
+          packages: superdupper-core/dist
 
       - name: Build package Db
         run: python -m build superdupper-db
       - name: Publish package Db
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          packages: superdupper-db/
+          packages: superdupper-db/dist
