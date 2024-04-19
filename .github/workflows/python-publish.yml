@@ -37,3 +37,13 @@ jobs:
         run: python -m build
       - name: Publish package
         uses: pypa/gh-action-pypi-publish@release/v1
+
+      - name: Build package Core
+        run: python -m build superdupper-core
+      - name: Publish package Core
+        uses: pypa/gh-action-pypi-publish@release/v1
+
+      - name: Build package Db
+        run: python -m build superdupper-db
+      - name: Publish package Db
+        uses: pypa/gh-action-pypi-publish@release/v1
