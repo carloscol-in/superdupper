@@ -6,3 +6,5 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "superduper-db"
 version = "0.1"
+description = "Superdupper db."
+readme = "README.md"
