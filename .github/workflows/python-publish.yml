@@ -51,3 +51,6 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           packages: superdupper-db-dist
+
+      - name: List current dir
+        run: ls -al
