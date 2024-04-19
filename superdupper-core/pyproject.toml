@@ -5,6 +5,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "superduper-core"
-version = "0.0.4"
+version = "0.0.5"
 description = "Superdupper core."
 readme = "README.md"
