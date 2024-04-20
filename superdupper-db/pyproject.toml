@@ -8,3 +8,6 @@ name = "superduper-db"
 version = "0.0.11"
 description = "Superdupper db."
 readme = "README.md"
+
+[tool.setuptools]
+packages = ["superdupper"]
