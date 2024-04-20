@@ -4,7 +4,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "superduper-core"
+name = "superdupper-core"
 version = "0.0.10"
 description = "Superdupper core."
 readme = "README.md"
