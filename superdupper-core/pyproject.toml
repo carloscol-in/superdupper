@@ -5,9 +5,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "superdupper-core"
-version = "0.0.12"
+version = "0.0.13"
 description = "Superdupper core."
 readme = "README.md"
 
 [tool.setuptools.packages.find]
-include = ["superdupper.core"]
+include = ["superdupper.*"]

@@ -1,3 +1,3 @@
 class SuperduperCoreModel:
-    def hello():
+    def hello(self):
         print("Yeeyy!")
